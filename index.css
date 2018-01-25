@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-image: url(mineb.jpg);
+    color:black;
+}
+a {
+    color:black;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+h1 {
+    font-size: 80px;
+}
+li {
+    display: inline;
+}
