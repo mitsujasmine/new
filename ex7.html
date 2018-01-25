@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document1</title>
+</head>
+<body> 
+    <p>this is b4 clicking</p>
+    <button onclick="myfunc()">click me</button>
+    <p id="demo"></p>
+    <h1 onmouseover="changecolor(this)"onmouseout="change(this)" onclick="cha(this)">JAVASCRIPT</h1>
+    <script>
+        function changecolor(x){
+            x.style.color="blue";
+        }
+        function change(y){
+            y.style.color="red";
+    
+        }
+        function cha(z){
+            z.style.color="green";
+        }
+
+        function myfunc()
+        {
+            document.getElementById("demo").innerHTML="hello world";
+        }
+    </script>
+</body>
+</html>
